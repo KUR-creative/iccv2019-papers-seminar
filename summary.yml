@@ -28,11 +28,11 @@ Bau_Seeing_What_a_GAN_Cannot_Generate_ICCV_2019_paper:
         - GAN
     what: GAN에서 mode collapse(특정 클래스나 피처(mode)가 생성되지 않는 문제) 문제는 아직도 심각한 문제이나 정확히 얼마나, 어떤 mode가 생성되지 않는지는 알지 못한다.
     answer: 1) mode collapse의 분포를 시각화(어떤 mode가 생성되지 않았나?) 2) 생성된 이미지에서 어떤 
-    how: 1) 학습 데이터셋을 semantic segmentation 모델에 넣어 나온 클래스의 분포와 생성된 이미지 데이터를 넣어 나온 분포를 비교함. 비교해서 빠진 것이 바로 collapse가 일어난 mode. 2) 학습 데이터의 이미지와 생성된 이미지를 비교한다. 또 그것들의 세그멘테이션 결과도 비교한다.
+    how: 1) 학습 데이터셋을 semantic segmentation 모델에 넣어 나온 클래스의 분포와 생성된 이미지 데이터를 넣어 나온 분포를 비교함. 비교해서 빠진 것이 바로 collapse가 일어난 mode. 2) 학습 데이터의 이미지와 생성된 이미지를 비교한다. 또 그것들의 세그멘테이션 결과도 비교한다. <- network inversion을 한 거 같다..
     result: 
     conclusion: 
-    todo: 
-    note: mode collapse와 semantic segmentation을 먼저 설명할 것.
+    todo: szmc - image inpainting 모델에 적용할 수 있을까?
+    note: mode collapse와 semantic segmentation을 먼저 설명할 것. 굉장히 유용한 논문이라고 생각함.
 
 Kim_Tag2Pix_Line_Art_Colorization_Using_Text_Tag_With_SECat_and_ICCV_2019_paper:
     keyword:
@@ -45,4 +45,47 @@ Kim_Tag2Pix_Line_Art_Colorization_Using_Text_Tag_With_SECat_and_ICCV_2019_paper:
     result: 
     conclusion: 
     todo: 
-    note:
+    note: 
+
+Yang_Controllable_Artistic_Text_Style_Transfer_via_Shape-Matching_GAN_ICCV_2019_paper:
+    keyword:
+        - FontGen
+        - StyleTransfer
+    what:
+    answer:
+    how:
+    result: 
+    conclusion: 
+    todo: 
+    note: 
+
+dos_Santos_Learning_Implicit_Generative_Models_by_Matching_Perceptual_Features_ICCV_2019_paper:
+    keyword:
+        - NotGAN!
+    what:
+    answer:
+    how:
+    result: 
+    conclusion: 
+    todo: 
+    note: 
+
+Yu_Free-Form_Image_Inpainting_With_Gated_Convolution_ICCV_2019_paper:
+    keyword:
+    what:
+    answer:
+    how:
+    result: 
+    conclusion: 
+    todo: 
+    note: Used by SZMC!
+
+Kuo_ShapeMask_Learning_to_Segment_Novel_Objects_by_Refining_Shape_Priors_ICCV_2019_paper.pdf:
+    keyword:
+    what:
+    answer:
+    how:
+    result: 
+    conclusion: 
+    todo: 
+    note: Used by SZMC!
